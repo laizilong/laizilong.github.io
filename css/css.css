@@ -3,6 +3,9 @@
        text-align: center;
         background-color: rgb(26, 122, 151);
         font-size: 2em;
+        font-family: sans-serif;
+        font-style: italic;
+        text-decoration: underline;
     }
   body{
       background-size: 100em;
