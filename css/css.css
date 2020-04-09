@@ -1,6 +1,6 @@
-    .pmj{
+    .pmj{width: 50;
         color: rgb(0, 14, 14);
-       text-align: center;
+       text-align: left;
         background-color: rgb(26, 122, 151);
         font-size: 2em;
         font-family: sans-serif;
