@@ -7,7 +7,24 @@
         font-style: italic;
         text-decoration: underline;
     }
-  body{
-      background-size: 96em;
-      height: 51em;
-  }
+    body{
+        background-size: 96em;
+        height: 51em;
+    }
+ .breadcrumb{
+     font-size: 1.6em;
+     color:#fff;
+ }
+.breadcrumb a:first-child{
+    color: #82fcfd;
+}
+.breadcrumb a:first-child::before{
+    content: ">>";
+}
+.breadcrumb a::after{
+    content: "/";
+    color: #ef6eae;
+}
+.breadcrumb a:last-child::after{
+    content: "";
+}
